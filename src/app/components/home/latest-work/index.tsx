@@ -29,7 +29,7 @@ const LatestWork = () => {
           <div className="py-16 xl:py-32 ">
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
               <h2>Latest Works</h2>
-              <p className="text-xl text-orange-500">( 04 )</p>
+              <p className="text-xl text-orange-500">( 03 )</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6 xl:gap-y-12">
               {workData?.map((value: any, index: any) => {
@@ -51,7 +51,7 @@ const LatestWork = () => {
                         href={"#!"}
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
-                        <span className="flex justify-center items-center p-5 w-full">
+                        {/* <span className="flex justify-center items-center p-5 w-full">
                           <svg
                             width="65"
                             height="64"
@@ -74,7 +74,7 @@ const LatestWork = () => {
                               strokeLinejoin="round"
                             />
                           </svg>
-                        </span>
+                        </span> */}
                       </Link>
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
@@ -82,14 +82,8 @@ const LatestWork = () => {
                         <Link href={`${value.slug}`}>
                           <h5>{value?.title}</h5>
                         </Link>
-                        <Image
-                          src={getImgPath("/images/icon/right-arrow-icon.svg")}
-                          alt="right-arrow-icon"
-                          width={30}
-                          height={30}
-                        />
                       </div>
-                      <p>Client: {value?.client}</p>
+                      <p>{value?.description}</p>
                     </div>
                   </div>
                 );

@@ -1,4 +1,4 @@
-import AboutMe from "./components/home/about-me"
+// import AboutMe from "./components/home/about-me"
 import Contact from "./components/home/contact"
 import EducationSkills from "./components/home/education-skills"
 import ExperienceSec from "./components/home/experience-sec"
@@ -12,7 +12,7 @@ const page = () => {
       <main>
         <HeroSection />
         <ContactBar />
-        <AboutMe />
+        {/* <AboutMe /> */}
         <ExperienceSec />
         <EducationSkills />
         <LatestWork />

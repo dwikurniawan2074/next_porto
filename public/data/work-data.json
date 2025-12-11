@@ -1,40 +1,40 @@
 {
   "workData": [
     {
-      "image": "/images/work/work-img-1.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "image": "/images/work/permata_hub.png",
+      "title": "Permata Hub",
+      "description": "Sport Arena Booking App",
+      "slug": "sport-arena-booking-app"
     },
     {
-      "image": "/images/work/work-img-2.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "image": "/images/work/prism.png",
+      "title": "PRISM",
+      "description": "Human Resource Information System",
+      "slug": "human-resource-information-system"
     },
     {
-      "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
-      "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "image": "/images/work/project_management.jpg",
+      "title": "Project Management",
+      "description": "Project Management App Customized for PT Trafindo",
+      "slug": "project-management"
     },
     {
-      "image": "/images/work/work-img-4.jpg",
-      "title": "Book Cover Design",
-      "client": "John Honnai",
-      "slug": "book-cover-design"
+      "image": "/images/work/tender_management.jpg",
+      "title": "Tender Management",
+      "description": "Custom Tender Management App for PT Trafindo",
+      "slug": "tender-management"
     },
     {
-      "image": "/images/work/work-img-5.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "image": "/images/work/inka.png",
+      "title": "KPI Division Monitoring System",
+      "description": "John Honnai",
+      "slug": "kpi-division-system"
     },
     {
-      "image": "/images/work/work-img-6.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "image": "/images/work/sikosan.png",
+      "title": "SIKOSAN",
+      "description": "Boarding House Booking System",
+      "slug": "boarding-house-booking-system"
     }
   ]
 }

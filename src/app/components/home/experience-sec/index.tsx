@@ -3,32 +3,32 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
         {
-            year: "2018",
-            title: "Junior UX Designer",
-            company: "www.startup.com",
+            year: "2024-Now",
+            title: "IT Developer Officer",
+            company: "PT Permata Graha Nusantara",
             type: "Fulltime",
-            description: "Suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"
+            description: "Developed and maintained systems using PHP (Yii), optimizing HR applications and building internal payment APIs with Laravel. Also created the LMS (Moodle) and maintained office network infrastructure."
         },
         {
-            year: "2019",
-            title: "Senior UX Designer",
-            company: "www.googly.com",
-            type: "Remote",
-            description: "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
+            year: "2023-2024",
+            title: "Fullstack Developer",
+            company: "PT Trafoindo Prima Perkasa",
+            type: "Internship",
+            description: "Developed and maintained the full-stack Project Management and Tender Administration System. Collaborated with cross-functional teams to gather requirements, ensuring the system met all specifications and user needs."
         },
         {
-            year: "2020-2022",
-            title: "Team Lead Designer",
-            company: "www.company.com",
-            type: "Fulltime",
-            description: "Handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
+            year: "2023-2023",
+            title: "IT Developer",
+            company: "PT Industri Kereta Api Persero",
+            type: "Internship",
+            description: "Contributed as a Full-Stack Developer to the KPI Monitoring System Project. Developed and maintained web applications using PHP and Laravel, collaborating with teams to collect and assess all project requirements."
         },
         {
-            year: "2023+",
-            title: "Team Lead Designer",
-            company: "www.latest.com",
-            type: "Fulltime",
-            description: "Release of Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing software"
+            year: "2022-2023",
+            title: "Informatics Intern",
+            company: "BPKP Provinsi Lampung",
+            type: "Internship",
+            description: "As a Full-Stack Developer, successfully developed a simple inventory information system. Additionally, provided technical support to the Central Government Agency Secretary Division by assisting with important document archiving."
         }
     ];
 
@@ -38,7 +38,7 @@ const ExperienceSec = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
                         <h2>Experience</h2>
-                        <p className="text-xl text-primary">( 02 )</p>
+                        <p className="text-xl text-primary">( 01 )</p>
                     </div>
 
                     <div className="space-y-7 md:space-y-12">
@@ -55,9 +55,9 @@ const ExperienceSec = () => {
                                     )}
 
                                     <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
-                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 1 ? 'border-primary' : 'border-black'
+                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index % 2 !== 0 ? 'border-primary' : 'border-black'
                                             }`}>
-                                            {index === 1 && (
+                                            {index % 2 === 0 && (
                                                 <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
                                             )}
                                         </div>

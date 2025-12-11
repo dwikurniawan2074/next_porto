@@ -23,11 +23,12 @@ const index = () => {
               <h2>Fullstack Web Developer</h2>
             </div>
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
+              
               Hello, my name is Dwi Kurniawan i'm computer science student from Universitas Lampung and i have few experience on web development projects, i'm adaptable for working on team-based project or individual project.
             </p>
           </div>
           <Image
-            src={getImgPath("/images/home/banner/banner-img.png")}
+            src={getImgPath("/images/home/banner/new_banner_img.png")}
             alt="banner-img"
             width={685}
             height={650}
@@ -37,7 +38,7 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <Image
-          src={getImgPath("/images/home/banner/banner-img.png")}
+          src={getImgPath("/images/home/banner/new_banner_img.png")}
           alt="banner-img"
           width={685}
           height={650}

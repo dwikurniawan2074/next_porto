@@ -13,24 +13,16 @@ const Footer = () => {
             <div className="flex-grow h-px bg-black" />
           </div>
           <p className="text-secondary">
-            Designed by{" "}
+            Copyright {" "}
             <a
               href="https://getnextjstemplates.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              getnextjstemplates
+              Dwi's Portfolio
             </a>{" "}
-            • Distributed by{" "}
-            <a
-              href="https://themewagon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              ThemeWagon
-            </a>
+            • 
           </p>
         </div>
       </div>

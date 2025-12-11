@@ -3,21 +3,21 @@
     "contactItems": [
       {
         "type": "email",
-        "label": "hello@imsruthi.com",
+        "label": "dwi.kurniiawan@gmail.com",
         "icon": "/images/icon/mail-icon.svg",
-        "link": "mailto:hello@imsruthi.com"
+        "link": "mailto:dwi.kurniiawan@gmail.com"
       },
       {
         "type": "phone",
-        "label": "+901 5588 2500",
+        "label": "+62 89539 2795541",
         "icon": "/images/icon/call-icon.svg",
         "link": "tel:+90155882500"
       },
       {
-        "type": "website",
-        "label": "www.mywebsite.com",
+        "type": "linkedin",
+        "label": "linkedin.com/in/dwi-kurniawan-16b844230",
         "icon": "/images/icon/web-icon.svg",
-        "link": "https://www.mywebsite.com"
+        "link": "linkedin.com/dwi-kurniawan-16b844230"
       }
     ],
     "socialItems": [
@@ -41,47 +41,43 @@
   "educationData": {
     "education": [
       {
-        "title": "Lipsum Collage - 2010",
+        "title": "Universitas Lampung, 2020-2024",
         "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
       },
       {
-        "title": "Master Diploma - 2012",
+        "title": "SMK Negri 2 Bandar Lampung, 2015-2018",
         "description": "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
-      },
-      {
-        "title": "Master in User Experience - 2014",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
       }
     ],
     "skills": [
       {
-        "name": "Figma",
-        "icon": "/images/home/education-skill/figma-icon.svg",
-        "rating": 5
-      },
-      {
-        "name": "Photoshop",
-        "icon": "/images/home/education-skill/photoshop-icon.svg",
-        "rating": 5
-      },
-      {
-        "name": "Sketch",
-        "icon": "/images/home/education-skill/sketch-icon.svg",
+        "name": "PHP",
+        "icon": "/images/home/education-skill/php3-icon.svg",
         "rating": 4
       },
       {
-        "name": "Adobe XD",
-        "icon": "/images/home/education-skill/adobe-icon.svg",
-        "rating": 4
-      },
-      {
-        "name": "Framer",
-        "icon": "/images/home/education-skill/framer-icon.svg",
+        "name": "Laravel",
+        "icon": "/images/home/education-skill/laravel-icon.svg",
         "rating": 5
       },
       {
-        "name": "Invasion",
-        "icon": "/images/home/education-skill/invision-icon.svg",
+        "name": "Yii",
+        "icon": "/images/home/education-skill/yii-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Javascript",
+        "icon": "/images/home/education-skill/js-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Git",
+        "icon": "/images/home/education-skill/git-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "HTML/CSS",
+        "icon": "/images/home/education-skill/html-icon.svg",
         "rating": 3
       }
     ]
@@ -89,28 +85,28 @@
   "contactLinks": {
     "socialLinks": [
       {
-        "title": "Dribble",
-        "href": "/"
+        "title": "Instagram",
+        "href": "https://www.instagram.com/dvvkrn/"
       },
       {
-        "title": "Facebook",
-        "href": "/"
+        "title": "Whatsapp",
+        "href": "https://wa.me/62895392795541"
       },
       {
         "title": "LinkedIn",
-        "href": "/"
+        "href": "https://www.linkedin.com/in/dwi-kurniawan-16b844230/"
       }
     ],
     "contactInfo": [
       {
         "type": "email",
-        "label": "hello@imsruthi.com",
-        "link": "mailto:hello@imsruthi.com"
+        "label": "dwi.kurniiawan@gmail.com",
+        "link": "mailto:dwi.kurniiawan@gmail.com"
       },
       {
         "type": "phone",
-        "label": "+901 5588 2500",
-        "link": "tel:+90155882500"
+        "label": "+62895 3927 95541",
+        "link": "tel:+62895392795541"
       }
     ]
   }
