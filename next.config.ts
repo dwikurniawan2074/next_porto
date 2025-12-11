@@ -4,17 +4,12 @@ const basePath = process.env.NODE_ENV === "production" ? "/new-portfolio" : "";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath,
-  assetPrefix: basePath,
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
-  },
-  env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 
