@@ -33,8 +33,8 @@ const ContactBar = () => {
                 (value: any, index: number) => (
                   <Link
                     key={index}
-                    onClick={(e) => e.preventDefault()}
-                    href={"#!"}
+                    target="_blank"
+                    href={value?.link}
                     className="flex items-center gap-2 lg:gap-4 text-sm md:text-base"
                   >
                     <Image

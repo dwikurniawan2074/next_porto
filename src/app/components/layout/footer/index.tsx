@@ -15,7 +15,7 @@ const Footer = () => {
           <p className="text-secondary">
             Copyright {" "}
             <a
-              href="https://getnextjstemplates.com/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
