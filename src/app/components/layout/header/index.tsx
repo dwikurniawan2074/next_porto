@@ -5,7 +5,7 @@ import Logo from "../logo";
 
 const Header = () => {
     const handleDownloadPDF = () => {
-        window.open("https://drive.google.com/file/d/1iWCiyNws-3NsieYfL7_VvC6GERj_qQzX/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1Hz2pcrb20SI9Sy7qxbdYohBveWkGQ8Uv/view?usp=sharing", "_blank");
     };
     return (
         <header className="navbar top-0 left-0 z-999 w-full absolute">
